@@ -4,11 +4,12 @@ Console.WriteLine("Hello, World!");
 Televisao tv = new Televisao(55f);
 Console.WriteLine($" A tv tem o Tamanho {tv.Tamanho}");
 
-tv.Volume = -35;
+/*tv.Volume = -35;
 Console.WriteLine($" A tv tem o Tamanho {tv.Volume}");
 
-tv.Volume = -35;
+tv.Volume = 120;
+Console.WriteLine($"Volume {tv.Volume}");*/
+
+tv.AumentarVolume();
 Console.WriteLine($"Volume {tv.Volume}");
 
-tv.Volume = 120;
-Console.WriteLine($"Volume {tv.Volume}");
